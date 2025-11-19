@@ -1,10 +1,10 @@
 
-public class LinkList
+public class LinkedList
 {
 	private Link first;            // ref to first link on list
 
 	//-------------------------------------------------------------
-	public LinkList()              // constructor
+	public LinkedList()              // constructor
 	{
 		first = null;               // no links on list yet
 	}
@@ -12,7 +12,7 @@ public class LinkList
 	public void insertFirst(Card card)
 	{                           // make new link
 		Link newLink = new Link(card);
-		newLink.next = first;       // it points to old first link
+		newLink.next = first;     // it points to old first link
 		first = newLink;            // now first points to this
 	}
 	public void add(Card card)
@@ -109,3 +109,4 @@ public class LinkList
 }  // end class LinkList2App
 ////////////////////////////////////////////////////////////////
 /// */
+

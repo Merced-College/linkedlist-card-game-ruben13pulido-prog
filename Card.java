@@ -1,3 +1,7 @@
+// Ruben Pulido, Jason Loa 
+// 11/28/2025
+// Linked List for class 
+
 //package cardGame;
 
 public class Card {
